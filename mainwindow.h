@@ -1,15 +1,12 @@
-#ifndef MAINWINDOW_H
+
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QMediaPlayer>
-#include <QAudioOutput>
-#include <QMediaDevices>
+#include <QPushButton>
+#include <QMessageBox>
 
 QT_BEGIN_NAMESPACE
-namespace Ui {
-class MainWindow;
-}
+namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
@@ -17,15 +14,22 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
+    explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
 private slots:
-    void on_PlayButton_clicked();
-
+    void on_startButton_clicked();
+    void on_outButton_clicked();
 
 private:
     Ui::MainWindow *ui;
+    QPushButton* Buttons[3][3];
+    bool xTurn;
+    int moveCount;
 
+    void handleButtonClick(int row, int col);
+    bool checkWin();
+    bool checkDraw();
+    void resetGame();
 };
-#endif // MAINWINDOW_H
+

@@ -6,165 +6,170 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1280</width>
-    <height>720</height>
+    <width>800</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QStackedWidget" name="Menus">
+   <widget class="QPushButton" name="b12">
     <property name="geometry">
      <rect>
-      <x>-1</x>
-      <y>-1</y>
-      <width>1280</width>
-      <height>720</height>
+      <x>290</x>
+      <y>100</y>
+      <width>161</width>
+      <height>91</height>
      </rect>
     </property>
-    <property name="currentIndex">
-     <number>0</number>
+    <property name="text">
+     <string>PushButton</string>
     </property>
-    <widget class="QWidget" name="LoginorRegister">
-     <widget class="QTextEdit" name="UsernameText">
-      <property name="geometry">
-       <rect>
-        <x>630</x>
-        <y>280</y>
-        <width>201</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>8514oem</family>
-        <pointsize>12</pointsize>
-        <bold>true</bold>
-       </font>
-      </property>
-     </widget>
-     <widget class="QGraphicsView" name="UserName">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>280</y>
-        <width>181</width>
-        <height>41</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QGraphicsView" name="Password">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>320</y>
-        <width>181</width>
-        <height>41</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="PasswordTextEdit" name="PasswordText">
-      <property name="geometry">
-       <rect>
-        <x>630</x>
-        <y>320</y>
-        <width>201</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>8514oem</family>
-        <pointsize>12</pointsize>
-        <bold>true</bold>
-       </font>
-      </property>
-     </widget>
-     <widget class="HoverButton" name="loginButton">
-      <property name="geometry">
-       <rect>
-        <x>460</x>
-        <y>400</y>
-        <width>381</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="HoverButton" name="GuestButton">
-      <property name="geometry">
-       <rect>
-        <x>460</x>
-        <y>550</y>
-        <width>381</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Login"/>
-    <widget class="QWidget" name="MainMenu">
-     <widget class="QPushButton" name="PlayButton">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>350</y>
-        <width>170</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="PlayMode"/>
-    <widget class="QWidget" name="StatScreen"/>
-    <widget class="QWidget" name="Arena"/>
-    <widget class="QWidget" name="ResultsScreen"/>
    </widget>
-   <widget class="QGraphicsView" name="MainImage">
+   <widget class="QPushButton" name="b21">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>30</y>
-      <width>480</width>
-      <height>192</height>
+      <x>150</x>
+      <y>190</y>
+      <width>141</width>
+      <height>91</height>
      </rect>
     </property>
-    <property name="verticalScrollBarPolicy">
-     <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+    <property name="text">
+     <string/>
     </property>
-    <property name="horizontalScrollBarPolicy">
-     <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+   </widget>
+   <widget class="QPushButton" name="b31">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>280</y>
+      <width>141</width>
+      <height>91</height>
+     </rect>
     </property>
-    <property name="interactive">
-     <bool>true</bool>
+    <property name="text">
+     <string>PushButton</string>
     </property>
-    <property name="rubberBandSelectionMode">
-     <enum>Qt::ItemSelectionMode::IntersectsItemShape</enum>
+   </widget>
+   <widget class="QPushButton" name="b23">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>190</y>
+      <width>151</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b22">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>190</y>
+      <width>161</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b13">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>100</y>
+      <width>151</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b11">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>100</y>
+      <width>141</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b32">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>280</y>
+      <width>161</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b33">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>280</y>
+      <width>151</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startbutton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>470</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>start</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="outbutton">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>0</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>out</string>
     </property>
    </widget>
   </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>PasswordTextEdit</class>
-   <extends>QTextEdit</extends>
-   <header>PasswordTextEdit.h</header>
-  </customwidget>
-  <customwidget>
-   <class>HoverButton</class>
-   <extends>QPushButton</extends>
-   <header>hoverbutton.h</header>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections/>
 </ui>
